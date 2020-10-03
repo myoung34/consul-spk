@@ -18,7 +18,7 @@ if [ -d "${ALT_CONF_DIR}" ];
 then
     CONF_DIR="${ALT_CONF_DIR}"
 fi
-ARGS="agent -client 0.0.0.0 -server -config-dir=${CONF_DIR}"
+ARGS="agent -client 0.0.0.0 -server -config-dir=${CONF_DIR} -ui"
 
 export HOME=${INSTALL_DIR}
 export USER=root
